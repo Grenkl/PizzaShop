@@ -14,7 +14,9 @@ class AddProducts < ActiveRecord::Migration
   	Product.create ({
   	:title => 'Pepperoni', 
   	:description => 'Nice Pepperoni pizza', 
-  	:price => 450, :size => 30, :is_spicy => false, 
+  	:price => 450, 
+  	:size => 30, 
+  	:is_spicy => false, 
   	:is_veg => false, 
   	:is_best_offer => false, 
   	:path_to_image => '/images/pepperoni.jpg'
